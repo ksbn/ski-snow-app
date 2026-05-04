@@ -71,7 +71,7 @@ def clear_placeholder(e):
 entry.bind("<FocusIn>", clear_placeholder)
 
 tk.Button(root, text="Search ❄️", font=("Arial", 13, "bold"),
-          bg="#6c63ff", fg="white", bd=0, padx=20, pady=8,
+          bg="#a7eefc", fg="blue", bd=0, padx=20, pady=8,
           cursor="hand2", command=search).pack(pady=12)
 
 result_label = tk.Label(root, text="", font=("Arial", 13),
